@@ -1,0 +1,18 @@
+@use "../../../color-variables";
+.complete {
+    background-color: #13d423;
+}
+
+.undo {
+    background-color: #d5d81f;
+}
+
+.remove {
+    background-color: #c01818;
+}
+
+.text-task, i {
+    color: color-variables.$font-color;
+    font-size: 1.2em;
+    margin: 0 1.1em 0 0;
+}

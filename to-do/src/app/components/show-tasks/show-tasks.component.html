@@ -1,0 +1,13 @@
+<div class="tasks-container">
+    <ul>
+        <li *ngFor="let task of tasks"> 
+            <div class="task-items">
+                <i class="fa-solid fa-{{ this.task.completed ? 'check' : 'bell'}}"></i> 
+                <span class="text-task"> {{ this.task.task }} </span>
+                <button (click)="completeTask(this.task)" class="complete">Finished</button>
+                <button (click)="undoTask(this.task)" class="undo">Undo</button>
+                <button (click)="removeTask(this.task)" class="remove">Remove</button>
+            </div>
+        </li>
+    </ul>
+ </div>

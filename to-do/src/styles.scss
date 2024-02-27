@@ -1,0 +1,47 @@
+@use "color-variables";
+
+* {
+    background-color: color-variables.$background-color;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: color-variables.$font-family;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 0.8em 1.2em;
+    border-radius: 25px;
+    margin: 5px 5px;
+    border: 1px solid transparent;
+    color: color-variables.$font-color;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover {
+    box-shadow: 2.5px 1.5px 1.5px black;
+}
+
+input[type="text"] {
+    padding: 0.8em 1.2em;
+    border-radius: 25px;
+    width: 30vw;
+    background-color: color-variables.$background-input;
+    cursor: pointer;
+    border: 0.2px solid color-variables.$font-color;
+}
+
+input[type="text"]:hover {
+    box-shadow: 2.5px 1.5px 1.5px black;
+}
+
+li {
+    margin: 10px 10px;
+    list-style-type: none;
+}
