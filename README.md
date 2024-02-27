@@ -1,2 +1,8 @@
 # angular-to-do
-Simple Angular Todo App to pratice. 
+A simple Angular Todo App to pratice. 
+
+Components: Home, AddTask, ShowTasks.
+Services: AddTask.
+Interface: Task.
+
+
